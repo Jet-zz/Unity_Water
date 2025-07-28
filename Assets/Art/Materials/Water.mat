@@ -1,0 +1,83 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 8
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Water
+  m_Shader: {fileID: 4800000, guid: 2ae206ba6b12dec43ba03f75a95c6918, type: 3}
+  m_Parent: {fileID: 0}
+  m_ModifiedSerializedProperties: 0
+  m_ValidKeywords: []
+  m_InvalidKeywords: []
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: 3000
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_LockedProperties: 
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _CausticMap:
+        m_Texture: {fileID: 2800000, guid: 906e19984736cc44f8da7b245da7c864, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Cubemap:
+        m_Texture: {fileID: 8900000, guid: 33f908278a070ca4ea44e7898cfa073b, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MainTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _NormalTex:
+        m_Texture: {fileID: 2800000, guid: c11211d19f51c6843ada06fcf56eb6ff, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _WaterGradientTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _WaveMap:
+        m_Texture: {fileID: 2800000, guid: 88b762e8429cabd45ba830f03bbe4d9c, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Ints: []
+    m_Floats:
+    - _CausticsIntensity: 0.5
+    - _CausticsSize: 0.1
+    - _CausticsSpeed: 1.2
+    - _DepthLevel: 0.35
+    - _DepthPower: 1.99
+    - _Distortion: 4.8
+    - _Gloss: -0.14
+    - _HModifier: -1.32
+    - _Metallic: 0.571
+    - _NormalScale: 1
+    - _NormalScale1: 2
+    - _NormalScale2: 1
+    - _ReflectiveDistort: 0.15
+    - _RefractiveStrength: 9.49
+    - _RelectDistort: 0.41
+    - _Smoothness: 0.22
+    - _Specular: 0.15
+    - _SpecularPow: 20.1
+    - _SurfaceSize: 10
+    - _SurfaceSize1: 1
+    - _SurfaceSize2: 1
+    - _WaveXSpeed: 0.056
+    - _WaveYSpeed: 0.056
+    - _max_visibility: 2.12
+    m_Colors:
+    - _BumpSpeed1: {r: 0.1, g: 0, b: 0, a: 0}
+    - _BumpSpeed2: {r: -0.03, g: 0, b: 0, a: 0}
+    - _Color: {r: 1, g: 1, b: 1, a: 1}
+    - _DeepColor: {r: 0, g: 0, b: 0, a: 1}
+    - _ShallowColor: {r: 0.3915094, g: 0.83664936, b: 1, a: 1}
+    - _SpeedXY: {r: 6.88, g: 0, b: 0, a: 0}
+  m_BuildTextureStacks: []
